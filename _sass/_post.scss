@@ -10,6 +10,7 @@
         	@include media-query($on-palm) {
         		font-size: 34px;
         	}
+          color: #b5402e;
         }
         .post-meta {
         	color:#999;
@@ -25,13 +26,14 @@
     .post-content {
         color: #333;
         
-        h1,h2,h3,h4,h5,h6 {
-            color: #000;
+        h2,h3,h4,h5,h6 {
+            color: #b5402e;
+          margin-top: 30px;
         }
         
         h1, h2 {
         	margin-bottom: 10px;
-            margin-top: 30px;
+
         }
         
         h1, h2, h3 {

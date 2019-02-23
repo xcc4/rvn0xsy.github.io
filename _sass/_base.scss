@@ -23,8 +23,8 @@ code,pre {
 	font-size: $code-font-size;
 }
 code {
-	color: #900;
-	background-color: #fff;
+	color: white;
+	background-color: #100005;
 	padding: 2px 5px;
 	border-radius: 5px;
 }
@@ -75,4 +75,9 @@ h1,h2,h3,h4,h5,h6{
 
 .MathJax_SVG_Display, .MathJax_Display, .MJXc-display, .MathJax_PHTML_Display {
     overflow-x: auto;
+}
+
+
+video{
+	margin: 20px;
 }
