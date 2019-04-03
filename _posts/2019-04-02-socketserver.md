@@ -46,6 +46,7 @@ import socketserver
 class MyTCPHandler(socketserver.BaseRequestHandler):
     def __init__(self,request, client_address, server,name):
         self.name = name
+        super().__init__(request, client_address, server)
     def handle(self):
         while True:
             try:
